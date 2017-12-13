@@ -1,0 +1,17 @@
+---
+title: trial
+author: Sondra
+date: '2017-12-13'
+slug: trial
+categories: []
+tags: []
+---
+
+Here's a cool plot
+
+```{r}
+library(ggplot2)
+ggplot(mpg, aes(cty, hwy, color = cyl)) +
+  geom_point()
+```
+
